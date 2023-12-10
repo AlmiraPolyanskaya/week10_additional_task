@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="page-title">МОЯ ГАЛЕРЕЯ</h1>
+
+        <div class="gallery">
+            <div class="image_1">
+                <img src="./assets/images/image_1.jpg" alt="И. Айвазовский 'Радуга'">
+            </div>
+            <div class="image_2"><img src="./assets/images/image_2.jpg" alt="И. Айвазовский 'Девятый вал'">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="alert-button" onClick="calculateTotalPrice()">Узнать стоимость</button>
+            <button class="message-button" onClick="messageCost()">Узнать стоимость</button>
+        </div>
+
+        <div>
+            <p id="total-price_text"></p>
+        </div>
+    </main>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
